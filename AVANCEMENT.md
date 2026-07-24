@@ -51,10 +51,10 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §5.3 | `sections/5.3_scheduling.md` | M096 | M088 | **intégré** (session 11) |
 | §5.4 | `sections/5.4_tactique.md` | M098 | M088 | **intégré** (session 11) |
 | §5.5 | `sections/5.5_tca.md` | M100 | M088 | **intégré** (session 11) |
-| §6.1 | `sections/6.1_donnees.md` | **M130** | M104 (première passe) | indexé |
-| §6.2 | `sections/6.2_moteur.md` | **M130** | M104 | indexé |
-| §6.3 | `sections/6.3_production.md` | **M130** | M104 | indexé |
-| §6.4 | `sections/6.4_organisation.md` | **M130** | M104 | indexé |
+| §6.1 | `sections/6.1_donnees.md` | **M130** | M104 (première passe) | **intégré** (session 12) |
+| §6.2 | `sections/6.2_moteur.md` | **M130** | M104 | **intégré** (session 12) |
+| §6.3 | `sections/6.3_production.md` | **M130** | M104 | **intégré** (session 12) |
+| §6.4 | `sections/6.4_organisation.md` | **M130** | M104 | **intégré** (session 12) |
 | Encadré A | `encadres/A_shrinkage.md` | M035, M078, M080, M120, M122, M130 | M132 (définition v3) | indexé |
 | Encadré B | `encadres/B_croissance_et_survie.md` | M035, M084, M130 | M132 | indexé |
 | Encadré C | `encadres/C_selection_adverse.md` | M092, M098 | M132 | indexé |
@@ -198,3 +198,15 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - **La branche 5 est complète** (5.1 → 5.5). Encadré C complet sur ses quatre faces.
 - **P4 loggée** : κ (AC) vs κ (ridge) → κ_AC en section ; γ d'impact permanent → γ_p.
 - Prochaine session : branche 6 — §6.1-§6.4 depuis M130 (référence), M104 (1ère passe).
+
+### Session 12 — 2026-07-24 (branche 6 complète : §6.1-§6.4)
+- Les quatre nœuds **intégrés** par fusion M130 (formules ✓✓ : AS-OF, placebo
+  étalonné, N_eff = 1+(N−1)(1−ρ̄), SPRT & bornes, PSI, contrat Shapley-déflaté-différé)
+  × M104 (prose détaillée : append-only/Kleppmann, vectorisé vs event-driven,
+  pipeline à portes, kill switches gradués, réconciliation, comité de revue, mémoire).
+- **L'ARBRE ENTIER EST INTÉGRÉ** : §0 (relu) + 27 nœuds (branches 1-6). Restent les
+  5 encadrés transversaux (A-E), puis les passes d'harmonisation et de VÉRIFICATION.
+- Chiffres `[à vérifier]` : E[T] du SPRT en centaines de jours.
+- Prochaine session : encadrés A-E (matière déjà rédigée dans les sections —
+  travail de synthèse), puis passe d'harmonisation (grep terminologie/symboles,
+  résolution TODO_renvois), puis passe de vérification, puis compilation pandoc.

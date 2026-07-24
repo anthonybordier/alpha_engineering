@@ -199,3 +199,13 @@ tous les renvois restants pointent vers les branches 4-6 et les encadrés.)*
 
 *(Renvois de §5.3/§5.4/§5.5 vers branches 1-5 : résolus. La branche 5 est close ;
 il ne reste que la branche 6 et les 5 encadrés comme cibles non écrites.)*
+
+## Après session 12 (branche 6 intégrée)
+
+**Toutes les sections du corps (§0-§6.4) existent : les renvois inter-sections listés
+ci-dessus sont RÉSOLUS.** Ne restent comme cibles non écrites que les **5 encadrés
+transversaux (A-E)** — référencés depuis : §1.1 (A), §1.2 (D, E), §1.3-§1.4 (D),
+§2.1-§2.3 (D), §2.4 (E), §3.1 (A, B, D, E), §3.2-§3.3 (A, E), §3.4 (A), §4.1-§4.2 (A, D),
+§4.4 (B), §4.5 (E), §5.1, §5.4 (C), §6.3 (E), §6.4 (B).
+La passe d'harmonisation devra vérifier chaque renvoi un par un (grep §N.N.N) avant
+de purger ce fichier.
