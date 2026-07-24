@@ -63,3 +63,25 @@ Format : `§source → §cible — contexte — statut`. Retirer la ligne quand 
 - §1.4 → encadré D — chevauchement — cible non écrite
 
 *(Renvois internes à la branche 1 — §1.1 ↔ §1.2 ↔ §1.3 ↔ §1.4 — tous résolus : les quatre sections existent.)*
+
+## Depuis §2.1 (intégrée session 4)
+
+- §2.1 → §2.3.2 — inférence sur Sharpe (Lo) — cible non écrite
+- §2.1 → §3.1.3 — NW/shrinkage sur σ(IC) — cible non écrite
+- §2.1 → §3.4, §3.4.5 — admission au pool, interface (φ) — cible non écrite
+- §2.1 → §4.1, §4.2.2 — modèle de risque, contraintes holdings-based — cible non écrite
+- §2.1 → §4.3.2, §4.3.3 — bandes, Gârleanu-Pedersen (φ) — cible non écrite
+- §2.1 → §4.4.4 — capacité A\* — cible non écrite
+- §2.1 → §5.3.3 — urgence d'exécution (φ) — cible non écrite
+- §2.1 → §6.1, §6.2 — données d'emprunt, placebo étalonné — cible non écrite
+
+## Depuis §2.2 (intégrée session 4)
+
+- §2.2 → §2.3 — remise en cause (anti-overfitting) — cible non écrite
+- §2.2 → §3.1.3 — hystérésis des buckets — cible non écrite
+- §2.2 → §4.3.1 — modèle de coût commun — cible non écrite
+- §2.2 → §4.4.4 — capacité (ADV nettoyé) — cible non écrite
+- §2.2 → §5.1.1, §5.1.2, §5.2.4, §5.3.2, §5.5.4 — Roll, auctions, mesure des volumes, benchmarks, TCA — cible non écrite
+- §2.2 → §6.1, §6.2 — correspondances datées, placebo quotidien — cible non écrite
+
+*(Renvois de §2.1/§2.2 vers la branche 1 et entre eux : résolus.)*

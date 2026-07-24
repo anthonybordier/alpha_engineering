@@ -32,8 +32,8 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §1.2 | `sections/1.2_feature_engineering.md` | M018 (1.2.1), M025 (1.2.2), M027 (1.2.3), M029 (1.2.4) | M016 (vue d'ensemble) | **intégré** (session 2) |
 | §1.3 | `sections/1.3_normalisation.md` | M043 | M062 (demi-vie), M064 (autocorrélation), M066 (turnover) → §1.3.4 | **intégré** (session 3) |
 | §1.4 | `sections/1.4_cibles_labels.md` | M102 | — | **intégré** (session 3) |
-| §2.1 | `sections/2.1_metriques.md` | M114 | M012 (survol branche 2) | indexé |
-| §2.2 | `sections/2.2_backtest.md` | M116 | M012 | indexé |
+| §2.1 | `sections/2.1_metriques.md` | M114 | M012 (survol branche 2) | **intégré** (session 4) |
+| §2.2 | `sections/2.2_backtest.md` | M116 | M012 | **intégré** (session 4) |
 | §2.3 | `sections/2.3_anti_overfitting.md` | M112 | M012 | indexé |
 | §2.4 | `sections/2.4_non_stationnarite.md` | M118 | M012 | indexé |
 | §3.1 | `sections/3.1_ponderations_simples.md` | M033 ; **M035 (forage niveau 5 : 3.1.3)** | M031 (survol branche 3) | indexé |
@@ -105,3 +105,13 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - **La branche 1 est complète** (1.1 → 1.4, tous intégrés) ; la branche 0 est relue.
 - Prochaine session : branche 2 (ou demi-branche) — §2.1 (M114) et §2.2 (M116),
   puis §2.3 (M112) et §2.4 (M118) ; survol M012 en cadrage.
+
+### Session 4 — 2026-07-24 (demi-branche 2 : §2.1, §2.2)
+- §2.1 **intégré** depuis M114 (plancher σ₀(IC), décomposition de σ(IC), plafond d'ICIR,
+  IC retardé vs cumulé et φ, HXZ, Patton-Timmermann, Drechsler, c\*, t(α) NW).
+- §2.2 **intégré** depuis M116 (Fama-MacBeth = portefeuille miroir, γ̄₁ ≈ IC̄·σ_cs(r),
+  timeline contractuelle, Shumway −30%/−55%, courbe Sharpe(c), nettoyage crypto,
+  placebo = certification).
+- Chiffres marqués `[à vérifier]` : majorité des ~450 anomalies HXZ, −55% Nasdaq
+  (Shumway & Warther), ~70% wash trading (Cong et al.).
+- Prochaine session : fin de branche 2 — §2.3 (M112) et §2.4 (M118).
