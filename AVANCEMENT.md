@@ -250,3 +250,24 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - Le PDF est un BROUILLON : chiffres/attributions non vérifiés (bandeau sur la page
   de titre), bibliographie BibTeX non générée (post-vérification).
 - Prochaine étape : passe de VÉRIFICATION, puis BibTeX + recompilation finale.
+
+### Session 16 — 2026-07-24 (vérification des marqueurs [à vérifier])
+- **19 marqueurs traités**, 18 levés, 1 conservé (exemple chiffré du haircut
+  Harvey-Liu 2015 — à contrôler dans le papier).
+- **Confirmés par sources primaires** (web) : Sloan ~10%/an (hedge décile) ;
+  HXZ 452 anomalies / 65% (t≥1,96) / 82% (t≥2,78) ; Shumway −30% & Shumway-Warther
+  −55% (avec taux de sortie 5,6% vs 1,2%) ; McLean-Pontiff 26%/58% (exacts) ;
+  Cong et al. « plus de 70% en moyenne » ; Laloux ≈94% du spectre dans le bulk MP ;
+  USDC plancher 0,87 (11/03/2023) ; Parkinson ≈4,9× (théorique) ; Goyal-Wahal pour
+  la controverse Novy-Marx 12-7.
+- **Corrigés** : PEAD +2% → **+4% sur 60 jours (~18% annualisés)** ; clôture US
+  10% → **5-10% (>10% sur S&P 500)** ; SPRT « grandes centaines de jours » →
+  **E[T] ≈ 90-110 jours de bourse** (calcul de Wald : drift 0,02/jour) — corrigé
+  en §6.3 et encadré E ; E[max_N] reformulés avec la formule (2,5·σ pour N=100,
+  3,3·σ pour N=1000, σ(ŜR) ≈ 1/√T_années).
+- **Requalifiés « ordre de grandeur praticien »** (pas de source existante) :
+  écart CV naïve/purgée, part de variance BTC 50-70%, TC de l'optimiseur du pauvre
+  80-90%, A\* crypto en millions.
+- Restent pour une passe de vérification COMPLÈTE (optionnelle, longue) : le
+  contrôle systématique de toutes les attributions (auteur/revue/année) — la
+  session n'a contrôlé que les affirmations marquées.
