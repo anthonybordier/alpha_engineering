@@ -48,9 +48,9 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §4.5 | `sections/4.5_gestion_des_risques.md` | M086 | M072, M076 | **intégré** (session 9) |
 | §5.1 | `sections/5.1_microstructure.md` | M092 | M088 (survol branche 5) | **intégré** (session 10) |
 | §5.2 | `sections/5.2_impact.md` | M094 | M088 | **intégré** (session 10) |
-| §5.3 | `sections/5.3_scheduling.md` | M096 | M088 | indexé |
-| §5.4 | `sections/5.4_tactique.md` | M098 | M088 | indexé |
-| §5.5 | `sections/5.5_tca.md` | M100 | M088 | indexé |
+| §5.3 | `sections/5.3_scheduling.md` | M096 | M088 | **intégré** (session 11) |
+| §5.4 | `sections/5.4_tactique.md` | M098 | M088 | **intégré** (session 11) |
+| §5.5 | `sections/5.5_tca.md` | M100 | M088 | **intégré** (session 11) |
 | §6.1 | `sections/6.1_donnees.md` | **M130** | M104 (première passe) | indexé |
 | §6.2 | `sections/6.2_moteur.md` | **M130** | M104 | indexé |
 | §6.3 | `sections/6.3_production.md` | **M130** | M104 | indexé |
@@ -187,3 +187,14 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - Gloses : λ_K (Kyle), ρ_v (densité latente) — usages locaux vs NOTATION.md.
 - Chiffres `[à vérifier]` : ~10% du volume US en clôture.
 - Prochaine session : fin de branche 5 — §5.3 (M096), §5.4 (M098), §5.5 (M100).
+
+### Session 11 — 2026-07-24 (fin de branche 5 : §5.3, §5.4, §5.5)
+- §5.3 **intégré** depuis M096 (AC complet — x(t) en sinh, κ_AC —, benchmarks,
+  front-loading & urgence = max(κ_AC, φ), Obizhaeva-Wang, Gatheral, HJB, adaptatif).
+- §5.4 **intégré** depuis M098 (E[coût limit vs market], Moallemi-Yuan, microprice,
+  OFI, Lee-Ready, markouts M(τ), Avellaneda-Stoikov, GLFT, crypto rebates/lead-lag).
+- §5.5 **intégré** depuis M100 (Perold 4 termes/4 propriétaires, cascade des paper
+  portfolios, netting benefit, Shapley des coûts, n ≈ 10⁴ ordres, boucle pré/intra/post).
+- **La branche 5 est complète** (5.1 → 5.5). Encadré C complet sur ses quatre faces.
+- **P4 loggée** : κ (AC) vs κ (ridge) → κ_AC en section ; γ d'impact permanent → γ_p.
+- Prochaine session : branche 6 — §6.1-§6.4 depuis M130 (référence), M104 (1ère passe).

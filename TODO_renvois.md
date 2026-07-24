@@ -189,3 +189,13 @@ tous les renvois restants pointent vers les branches 4-6 et les encadrés.)*
 - §5.2 → §6.2 — logger l'intention (registre côté exécution) — cible non écrite
 
 *(Renvois de §5.1/§5.2 vers branches 1-4 et entre eux : résolus.)*
+
+## Depuis §5.3, §5.4, §5.5 (intégrées session 11)
+
+- §5.3 → §6.3 — le ticket avec urgence en production — cible non écrite
+- §5.4 → encadré C — les quatre faces — cible non écrite
+- §5.5 → §6.3 — un seul flux pré/intra/post, monitoring live-vs-attendu — cible non écrite
+- §5.5 → §6.4 — assiette de l'attribution par chercheur — cible non écrite
+
+*(Renvois de §5.3/§5.4/§5.5 vers branches 1-5 : résolus. La branche 5 est close ;
+il ne reste que la branche 6 et les 5 encadrés comme cibles non écrites.)*

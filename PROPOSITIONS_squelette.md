@@ -36,3 +36,14 @@ de CLAUDE.md). Chaque entrée : localisation, problème, proposition, statut.
   du texte ; le squelette gelé garde (s, ρ, σ(IC), φ, τ).
 - **Traitement en attendant** : §3.4.5 écrit τ_k avec glose explicite d'homonymie.
 - **Statut** : proposé (session 7), non appliqué.
+
+## P4 — §5.3 : le κ d'Almgren-Chriss collisionne avec κ = pénalité ridge
+
+- **Localisation** : squelette v3, ligne 5.3 — « x(t) = X·sinh(κ(T−t))/sinh(κT),
+  κ = √(λ_rσ²/η̃) » et « urgence = max(κ, φ) ».
+- **Problème** : §0.5 réserve κ à la pénalité de régularisation (ridge, §3.2).
+  L'urgence d'Almgren-Chriss est un objet distinct, très fréquent dans la branche 5.
+- **Proposition** : noter κ_AC dans le squelette (choix retenu dans la section rédigée).
+  Au passage, le γ d'impact permanent d'AC (γ·v·τ) collisionne aussi avec γ =
+  aversion au risque — noté γ_p en section.
+- **Statut** : proposé (session 11), non appliqué ; sections conformes via gloses.
