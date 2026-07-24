@@ -46,8 +46,8 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §4.3 | `sections/4.3_couts.md` | M082 | M072, M076 | **intégré** (session 9) |
 | §4.4 | `sections/4.4_sizing_levier.md` | M084 | M072, M076 | **intégré** (session 9) |
 | §4.5 | `sections/4.5_gestion_des_risques.md` | M086 | M072, M076 | **intégré** (session 9) |
-| §5.1 | `sections/5.1_microstructure.md` | M092 | M088 (survol branche 5) | indexé |
-| §5.2 | `sections/5.2_impact.md` | M094 | M088 | indexé |
+| §5.1 | `sections/5.1_microstructure.md` | M092 | M088 (survol branche 5) | **intégré** (session 10) |
+| §5.2 | `sections/5.2_impact.md` | M094 | M088 | **intégré** (session 10) |
 | §5.3 | `sections/5.3_scheduling.md` | M096 | M088 | indexé |
 | §5.4 | `sections/5.4_tactique.md` | M098 | M088 | indexé |
 | §5.5 | `sections/5.5_tca.md` | M100 | M088 | indexé |
@@ -176,3 +176,14 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
   millions, USDC 0,88, capacités Frazzini-Israel-Moskowitz.
 - Prochaine session : branche 5 (demi-branche) — §5.1 (M092) et §5.2 (M094),
   survol M088 en cadrage.
+
+### Session 10 — 2026-07-24 (demi-branche 5 : §5.1, §5.2)
+- §5.1 **intégré** depuis M092 (Glosten-Milgrom, Huang-Stoll, Roll, tick & files,
+  auctions/Budish, NBBO/dark/Zhu, perps & funding, AMM x·y = k, LVR ≈ σ²/8, MEV,
+  lead-lag Hasbrouck).
+- §5.2 **intégré** depuis M094 (loi en racine I = Yσ√(Q/V), Kyle λ_K, liquidité
+  latente I = √(2Q/ρ'), plateau ⅔ & fair pricing, propagateur G(l) ~ l^−β avec
+  β = (1−γ)/2, cross-impact, biais de mesure & randomisation).
+- Gloses : λ_K (Kyle), ρ_v (densité latente) — usages locaux vs NOTATION.md.
+- Chiffres `[à vérifier]` : ~10% du volume US en clôture.
+- Prochaine session : fin de branche 5 — §5.3 (M096), §5.4 (M098), §5.5 (M100).

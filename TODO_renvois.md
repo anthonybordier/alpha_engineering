@@ -175,3 +175,17 @@ tous les renvois restants pointent vers les branches 4-6 et les encadrés.)*
 - §4.5 → encadré E — réponse graduelle — cible non écrite
 
 *(Renvois de §4.3/§4.4/§4.5 vers branches 1-4 : résolus. La branche 4 est close.)*
+
+## Depuis §5.1 (intégrée session 10)
+
+- §5.1 → §5.4.1–§5.4.3 — file comme actif, signaux micro, markouts par venue — cible non écrite
+- §5.1 → §6.1 — consolidation des feeds — cible non écrite
+- §5.1 → encadré C — Glosten-Milgrom → LVR — cible non écrite
+
+## Depuis §5.2 (intégrée session 10)
+
+- §5.2 → §5.3 — le rythme à impact donné — cible non écrite
+- §5.2 → §5.5.3, §5.5.4 — biais des non-exécutés, randomisation — cible non écrite
+- §5.2 → §6.2 — logger l'intention (registre côté exécution) — cible non écrite
+
+*(Renvois de §5.1/§5.2 vers branches 1-4 et entre eux : résolus.)*
