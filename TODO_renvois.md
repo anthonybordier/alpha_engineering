@@ -43,3 +43,23 @@ Format : `§source → §cible — contexte — statut`. Retirer la ligne quand 
 - §1.2 → §5.1.1, §5.2.1, §5.2.4, §5.4.2 — microstructure, impact, wash trading, OFI — cible non écrite
 - §1.2 → §6.1, §6.2 — bitemporel, capture propriétaire, registre, replay, holdout scellé — cible non écrite
 - §1.2 → encadrés D et E — chevauchement/NW, surveillance séquentielle — cible non écrite
+
+## Depuis §1.3 (intégrée session 3)
+
+- §1.3 → §2.1.2 — profil de decay (H_α, φ) — cible non écrite
+- §1.3 → §3, §3.4.4 — interface de combinaison, IC additifs en usine — cible non écrite
+- §1.3 → §4.1.4, §4.2, §4.3.2 — clusters, optimiseur/TC, bandes de non-trading — cible non écrite
+- §1.3 → §6.4 — neutralisation imposée au chercheur — cible non écrite
+
+## Depuis §1.4 (intégrée session 3)
+
+- §1.4 → §2.1.1, §2.1.2 — rank IC, term structure de l'IC — cible non écrite
+- §1.4 → §2.2, §2.2.1 — timeline, Fama-MacBeth/NW — cible non écrite
+- §1.4 → §2.3.1, §2.3.5 — purge = h, pré-spécification — cible non écrite
+- §1.4 → §2.4 — pondération de récence — cible non écrite
+- §1.4 → §3.1.3 — NW sur la série des IC — cible non écrite
+- §1.4 → §4.2, §4.3.3, §4.4.2 — usage, h vs coûts, Kelly fractionnel — cible non écrite
+- §1.4 → §5.1.1 — Roll, bid-ask bounce — cible non écrite
+- §1.4 → encadré D — chevauchement — cible non écrite
+
+*(Renvois internes à la branche 1 — §1.1 ↔ §1.2 ↔ §1.3 ↔ §1.4 — tous résolus : les quatre sections existent.)*

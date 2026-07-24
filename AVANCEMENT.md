@@ -30,8 +30,8 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §0 (0.1–0.8) | `section_0_cadre_et_conventions.md` | M054 (rédaction complète) | M002 (définition, →0.2), M004 (plan de l'arbre, →0.8), M052 (cross-section/panel, →0.1), M056+M058 (IC vs E[·], →0.3), M060 (ICIR, Spearman/Pearson, →0.3), M066 (turnover, →0.8) | **relu** (session 2 : + φ en §0.5, renvois loggés) |
 | §1.1 | `sections/1.1_familles_alphas.md` | **M128** (remplace M126) | M126, M006 (survol), M010 (prisme equity/crypto) | **intégré** (session 2) |
 | §1.2 | `sections/1.2_feature_engineering.md` | M018 (1.2.1), M025 (1.2.2), M027 (1.2.3), M029 (1.2.4) | M016 (vue d'ensemble) | **intégré** (session 2) |
-| §1.3 | `sections/1.3_normalisation.md` | M043 | M062 (demi-vie), M064 (autocorrélation), M066 (turnover) → §1.3.4 | indexé |
-| §1.4 | `sections/1.4_cibles_labels.md` | M102 | — | indexé |
+| §1.3 | `sections/1.3_normalisation.md` | M043 | M062 (demi-vie), M064 (autocorrélation), M066 (turnover) → §1.3.4 | **intégré** (session 3) |
+| §1.4 | `sections/1.4_cibles_labels.md` | M102 | — | **intégré** (session 3) |
 | §2.1 | `sections/2.1_metriques.md` | M114 | M012 (survol branche 2) | indexé |
 | §2.2 | `sections/2.2_backtest.md` | M116 | M012 | indexé |
 | §2.3 | `sections/2.3_anti_overfitting.md` | M112 | M012 | indexé |
@@ -94,3 +94,14 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
   `PROPOSITIONS_squelette.md` (le squelette, gelé, garde λ).
 - Prochaine session : fin de branche 1 — §1.3 (depuis M043 + M062/M064/M066) et
   §1.4 (depuis M102).
+
+### Session 3 — 2026-07-24 (fin de branche 1 : §1.3, §1.4)
+- §1.3 **intégré** depuis M043 ; §1.3.4 enrichi des définitions quantitatives de
+  M062/M064/M066 (ρ_cs, turnover ∝ √(1−ρ_cs(1)), les trois demi-vies H / H_s / H_α),
+  conformément à la consigne rétroactive de M068 (« c'est la version enrichie qu'il
+  faudra retenir »).
+- §1.4 **intégré** depuis M102 (triple-barrier, meta-labeling, MA(h−1), Huber,
+  unicité & récence).
+- **La branche 1 est complète** (1.1 → 1.4, tous intégrés) ; la branche 0 est relue.
+- Prochaine session : branche 2 (ou demi-branche) — §2.1 (M114) et §2.2 (M116),
+  puis §2.3 (M112) et §2.4 (M118) ; survol M012 en cadrage.
