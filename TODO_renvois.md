@@ -154,3 +154,24 @@ tous les renvois restants pointent vers les branches 4-6 et les encadrés.)*
 - §4.2 → encadré A — contraintes et robust opt — cible non écrite
 
 *(Renvois de §4.1/§4.2 vers branches 1-3 et entre eux : résolus.)*
+
+## Depuis §4.3 (intégrée session 9)
+
+- §4.3 → §5.2.1, §5.2.2 — racine carrée, temporaire/permanent — cible non écrite
+- §4.3 → §5.3.3 — urgence (l'autre versant de φ) — cible non écrite
+- §4.3 → §5.5.2, §5.5.4 — Shapley des coûts, calibration commune — cible non écrite
+- §4.3 → §6.4 — attribution par chercheur sous netting — cible non écrite
+
+## Depuis §4.4 (intégrée session 9)
+
+- §4.4 → §5.2.1 — le Y de la loi en racine — cible non écrite
+- §4.4 → §6.4 — le différé incitatif (troisième échelle de l'encadré B) — cible non écrite
+- §4.4 → encadré B — triptyque complet — cible non écrite
+
+## Depuis §4.5 (intégrée session 9)
+
+- §4.5 → §5.1.4 — mark price, mécanique des perps — cible non écrite
+- §4.5 → §6.3 — kill switches gradués, tableau de bord — cible non écrite
+- §4.5 → encadré E — réponse graduelle — cible non écrite
+
+*(Renvois de §4.3/§4.4/§4.5 vers branches 1-4 : résolus. La branche 4 est close.)*

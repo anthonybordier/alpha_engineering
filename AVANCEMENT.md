@@ -43,9 +43,9 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §3.4.5 | `sections/3.4.5_combinaison_sous_couts.md` | M124 (sous-section finale) | M082 (§4.3.3 Gârleanu-Pedersen) | **intégré** (session 7) |
 | §4.1 | `sections/4.1_modeles_de_risque.md` | M078 | **M072** (survol formel, remplace M070), M076 (références br. 4) | **intégré** (session 8) |
 | §4.2 | `sections/4.2_construction.md` | M080 | M072, M076 | **intégré** (session 8) |
-| §4.3 | `sections/4.3_couts.md` | M082 | M072, M076 | indexé |
-| §4.4 | `sections/4.4_sizing_levier.md` | M084 | M072, M076 | indexé |
-| §4.5 | `sections/4.5_gestion_des_risques.md` | M086 | M072, M076 | indexé |
+| §4.3 | `sections/4.3_couts.md` | M082 | M072, M076 | **intégré** (session 9) |
+| §4.4 | `sections/4.4_sizing_levier.md` | M084 | M072, M076 | **intégré** (session 9) |
+| §4.5 | `sections/4.5_gestion_des_risques.md` | M086 | M072, M076 | **intégré** (session 9) |
 | §5.1 | `sections/5.1_microstructure.md` | M092 | M088 (survol branche 5) | indexé |
 | §5.2 | `sections/5.2_impact.md` | M094 | M088 | indexé |
 | §5.3 | `sections/5.3_scheduling.md` | M096 | M088 | indexé |
@@ -161,3 +161,18 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - Chiffres `[à vérifier]` : ~90-95% des valeurs propres dans le bulk MP, 50-70% de
   variance expliquée par BTC, 80-90% du TC pour l'optimiseur du pauvre.
 - Prochaine session : fin de branche 4 — §4.3 (M082), §4.4 (M084), §4.5 (M086).
+
+### Session 9 — 2026-07-24 (fin de branche 4 : §4.3, §4.4, §4.5)
+- §4.3 **intégré** depuis M082 (TC(δ) à trois termes, bandes en c^(1/3),
+  **Gârleanu-Pedersen complet** — aim, actualisation 1/(1+φ_k·a/γ) —, MPC/netting).
+  Le λ de coût quadratique est noté **λ_c** (usage local glosé).
+- §4.4 **intégré** depuis M084 (vol targeting Moreira-Muir/Harvey, parabole de Kelly,
+  P(DD ≥ x) = (1−x)^(2/c−1), Grossman-Zhou/CPPI, Kaminski-Lo, capacité
+  A\* ∝ ADV·α²/τ³). Le turnover de la formule de capacité est noté **τ_to** (cf. P3).
+- §4.5 **intégré** depuis M086 (VaR/ES & Artzner, FHS, Kupiec/Christoffersen/
+  Acerbi-Székely, DCC, exceedance, λ_L = 0 gaussien, Khandani-Lo, reverse stress,
+  crypto : contrepartie/liquidations/depegs).
+- **La branche 4 est complète** (4.1 → 4.5). Chiffres `[à vérifier]` : A\* crypto en
+  millions, USDC 0,88, capacités Frazzini-Israel-Moskowitz.
+- Prochaine session : branche 5 (demi-branche) — §5.1 (M092) et §5.2 (M094),
+  survol M088 en cadrage.
