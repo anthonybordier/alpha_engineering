@@ -236,3 +236,17 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - **Tous les états passés à « relu »** (32 fichiers + table AVANCEMENT).
 - Prochaine étape : passe de VÉRIFICATION (chiffres & attributions contre sources
   primaires — commencer par la branche 4, la mieux balisée, cf. M076), puis compilation.
+
+### Session 15 — 2026-07-24 (compilation du PDF de travail)
+- Pipeline : `build/assemble.py` (assemblage dans l'ordre du squelette, conversion
+  ~x~/^x^ → <sub>/<sup>) → pandoc (corps sans template) → `build/postprocess_tex.py`
+  (28 glyphes exotiques routés vers Segoe UI Symbol) → `build/livre_main.tex`
+  (wrapper XeLaTeX : book, Cambria, geometry, hyperref) → double passe XeLaTeX.
+- Incidents résolus : serveur de packages MiKTeX (api2.miktex.org) injoignable →
+  runtimes TeX Live téléchargés depuis les miroirs CTAN et installés manuellement
+  dans le root utilisateur (infwarerr, geometry, booktabs, kvoptions, etc.).
+- **PDF produit : `L_arbre_de_la_recherche_d_alphas_v0-brouillon.pdf` — 108 pages**,
+  0 glyphe manquant, 3 overfull boxes. TdM par parties/chapitres, annexe notations.
+- Le PDF est un BROUILLON : chiffres/attributions non vérifiés (bandeau sur la page
+  de titre), bibliographie BibTeX non générée (post-vérification).
+- Prochaine étape : passe de VÉRIFICATION, puis BibTeX + recompilation finale.

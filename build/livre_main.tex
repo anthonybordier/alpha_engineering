@@ -1,0 +1,34 @@
+% Wrapper minimal — n'utilise que les packages présents dans cette installation MiKTeX
+\documentclass[11pt,oneside]{book}
+
+\usepackage{fontspec}
+\setmainfont{Cambria}
+\newfontfamily\symfont{Segoe UI Symbol}
+\setsansfont{Segoe UI}
+\setmonofont{Consolas}
+
+\usepackage[a4paper,margin=2.4cm]{geometry}
+\usepackage{longtable,array,calc,booktabs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[unicode,colorlinks=true,linkcolor=NavyBlue,urlcolor=NavyBlue]{hyperref}
+% Macros du corps pandoc
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\real}[1]{#1}
+\providecommand{\pandocbounded}[1]{#1}
+
+\setlength{\emergencystretch}{3em}
+\raggedbottom
+\XeTeXlinebreaklocale "fr"
+
+\title{L'arbre de la recherche d'alphas\\[0.6em]
+{\large Traité de recherche quantitative — equity cross-sectionnel \& crypto}}
+\author{Anthony Bordier}
+\date{Version de travail du 24 juillet 2026\\{\small chiffres et attributions non vérifiés — passe de vérification à venir}}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\input{corps}
+
+\end{document}

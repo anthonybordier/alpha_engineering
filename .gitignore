@@ -2,3 +2,13 @@
 # Le corpus versionné est transcripts/source.md ; conversations.json reste la source de vérité locale.
 _export/
 data-*.zip
+
+# Artefacts de compilation (build/assemble.py, livre_main.tex et postprocess_tex.py sont versionnés)
+build/livre.md
+build/corps.tex
+build/livre.tex
+build/*.aux
+build/*.log
+build/*.out
+build/*.toc
+build/*.pdf
