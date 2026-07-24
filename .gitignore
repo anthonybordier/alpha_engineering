@@ -1,0 +1,4 @@
+# Export claude.ai brut (53 Mo) — conservé sur disque, hors dépôt.
+# Le corpus versionné est transcripts/source.md ; conversations.json reste la source de vérité locale.
+_export/
+data-*.zip
