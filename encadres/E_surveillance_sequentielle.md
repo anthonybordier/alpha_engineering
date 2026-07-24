@@ -1,6 +1,6 @@
 # Encadré E — La surveillance séquentielle
 
-> **État : intégré** (session 13) — synthèse transversale ; sources dans les sections citées.
+> **État : relu** (intégré s.13, harmonisé s.14 — renvois et notation vérifiés) — synthèse transversale ; sources dans les sections citées ; vérification des chiffres à venir.
 
 **Détecter coûte du délai ; la réponse rationnelle est graduelle, jamais binaire.** Le problème que cet encadré traverse est celui de tout système qui surveille des quantités bruitées en temps réel : décider *au fil de l'eau* si un paramètre a changé — un IC qui meurt, un régime qui bascule, une feature qui dérive — sans le luxe de l'échantillon complet. La statistique séquentielle donne les outils optimaux, et une leçon quantitative uniforme : avec le bruit des marchés (σ(IC) ≈ 0,15 pour un IC de 0,03, §0.3), même le test *optimal* met des mois à conclure. Toute architecture qui prétend décider vite décide au hasard ; toute architecture qui attend la certitude décide trop tard — d'où la gradualité, partout.
 

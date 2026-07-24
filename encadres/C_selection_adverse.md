@@ -1,6 +1,6 @@
 # Encadré C — La sélection adverse, quatre technologies
 
-> **État : intégré** (session 13) — synthèse transversale ; sources dans les sections citées.
+> **État : relu** (intégré s.13, harmonisé s.14 — renvois et notation vérifiés) — synthèse transversale ; sources dans les sections citées ; vérification des chiffres à venir.
 
 **Le spread est un prix d'assurance contre l'information.** Quiconque affiche un prix ferme — teneur de marché, ordre limite au repos, pool de liquidité — vend une option gratuite à quiconque en sait plus que lui : la contrepartie ne l'exerce que quand le prix affiché est faux. Le spread est la prime que le vendeur d'immédiateté facture à tous pour couvrir ce qu'il perd contre les informés. Cet encadré suit le théorème à travers quatre technologies de marché — il se théorise, se mesure, se tarife, et se réécrit pour les courbes.
 

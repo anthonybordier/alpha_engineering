@@ -1,6 +1,6 @@
 # Encadré B — Croissance & survie
 
-> **État : intégré** (session 13) — synthèse transversale ; sources dans les sections citées.
+> **État : relu** (intégré s.13, harmonisé s.14 — renvois et notation vérifiés) — synthèse transversale ; sources dans les sections citées ; vérification des chiffres à venir.
 
 Trois échelles — la position, le book, l'organisation — et une seule réponse : **réduire l'exposition à l'estimé proportionnellement à son incertitude**. Cet encadré rassemble les résultats de croissance et de ruine que l'ouvrage mobilise, et montre qu'ils forment un seul argument.
 

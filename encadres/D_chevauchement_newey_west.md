@@ -1,6 +1,6 @@
 # Encadré D — Le chevauchement & Newey-West
 
-> **État : intégré** (session 13) — synthèse transversale ; sources dans les sections citées.
+> **État : relu** (intégré s.13, harmonisé s.14 — renvois et notation vérifiés) — synthèse transversale ; sources dans les sections citées ; vérification des chiffres à venir.
 
 **Un péché, cinq pénitences.** Le péché est toujours le même : traiter comme indépendantes des observations qui partagent de l'information. Dès que l'horizon de prédiction h dépasse la fréquence d'échantillonnage, les labels consécutifs se recouvrent — y~t~ et y~t+1~ partagent h−1 périodes, la série a une structure **MA(h−1)** — et toute statistique qui divise par √T ment : elle compte T observations là où il n'y en a effectivement que ≈ T/h. Dix ans de labels mensuels chevauchants échantillonnés quotidiennement font ~120 points indépendants, pas 2 500 — le chiffre qui calibre toutes les ambitions de la branche 2. L'ouvrage rencontre le péché cinq fois, et le corrige cinq fois avec le même outil ou son équivalent.
 

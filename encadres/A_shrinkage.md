@@ -1,6 +1,6 @@
 # Encadré A — Le shrinkage, un théorème sous huit habits
 
-> **État : intégré** (session 13) — synthèse transversale ; sources dans les sections citées.
+> **État : relu** (intégré s.13, harmonisé s.14 — renvois et notation vérifiés) — synthèse transversale ; sources dans les sections citées ; vérification des chiffres à venir.
 
 Un seul théorème traverse cet ouvrage plus souvent qu'aucun autre, et il mérite d'être énoncé une fois pour toutes : **quand on estime simultanément plusieurs quantités bruitées, l'estimateur qui tire chaque estimée vers une cible commune domine l'estimateur naïf composante par composante** — et l'ampleur du tirage optimal est proportionnelle au rapport bruit d'estimation / dispersion vraie. C'est le résultat de James-Stein (1961) : en dimension K ≥ 3, le shrinkage vers la moyenne commune domine le MLE *quel que soit* le vrai vecteur de paramètres. Ce qui rend le théorème structurant pour la recherche d'alphas, c'est que le régime de travail du praticien — beaucoup de quantités voisines, peu d'historique stationnaire, bruit dominant (§0.3, §3.1.2) — est précisément celui où la domination est la plus large. L'ouvrage le rencontre sous huit habits.
 

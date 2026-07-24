@@ -28,38 +28,38 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | Nœud | Fichier | Sources principales | Sources secondaires | État |
 |---|---|---|---|---|
 | §0 (0.1–0.8) | `section_0_cadre_et_conventions.md` | M054 (rédaction complète) | M002 (définition, →0.2), M004 (plan de l'arbre, →0.8), M052 (cross-section/panel, →0.1), M056+M058 (IC vs E[·], →0.3), M060 (ICIR, Spearman/Pearson, →0.3), M066 (turnover, →0.8) | **relu** (session 2 : + φ en §0.5, renvois loggés) |
-| §1.1 | `sections/1.1_familles_alphas.md` | **M128** (remplace M126) | M126, M006 (survol), M010 (prisme equity/crypto) | **intégré** (session 2) |
-| §1.2 | `sections/1.2_feature_engineering.md` | M018 (1.2.1), M025 (1.2.2), M027 (1.2.3), M029 (1.2.4) | M016 (vue d'ensemble) | **intégré** (session 2) |
-| §1.3 | `sections/1.3_normalisation.md` | M043 | M062 (demi-vie), M064 (autocorrélation), M066 (turnover) → §1.3.4 | **intégré** (session 3) |
-| §1.4 | `sections/1.4_cibles_labels.md` | M102 | — | **intégré** (session 3) |
-| §2.1 | `sections/2.1_metriques.md` | M114 | M012 (survol branche 2) | **intégré** (session 4) |
-| §2.2 | `sections/2.2_backtest.md` | M116 | M012 | **intégré** (session 4) |
-| §2.3 | `sections/2.3_anti_overfitting.md` | M112 | M012 | **intégré** (session 5) |
-| §2.4 | `sections/2.4_non_stationnarite.md` | M118 | M012 | **intégré** (session 5) |
-| §3.1 | `sections/3.1_ponderations_simples.md` | M033 ; **M035 (forage niveau 5 : 3.1.3)** | M031 (survol branche 3) | **intégré** (session 6) |
-| §3.2 | `sections/3.2_regression_regularisee.md` | M120 | M031 | **intégré** (session 6) |
-| §3.3 | `sections/3.3_stacking_meta_modeles.md` | M122 | M031 | **intégré** (session 7) |
-| §3.4 | `sections/3.4_orthogonalisation_pool.md` | M124 | M031 | **intégré** (session 7) |
-| §3.4.5 | `sections/3.4.5_combinaison_sous_couts.md` | M124 (sous-section finale) | M082 (§4.3.3 Gârleanu-Pedersen) | **intégré** (session 7) |
-| §4.1 | `sections/4.1_modeles_de_risque.md` | M078 | **M072** (survol formel, remplace M070), M076 (références br. 4) | **intégré** (session 8) |
-| §4.2 | `sections/4.2_construction.md` | M080 | M072, M076 | **intégré** (session 8) |
-| §4.3 | `sections/4.3_couts.md` | M082 | M072, M076 | **intégré** (session 9) |
-| §4.4 | `sections/4.4_sizing_levier.md` | M084 | M072, M076 | **intégré** (session 9) |
-| §4.5 | `sections/4.5_gestion_des_risques.md` | M086 | M072, M076 | **intégré** (session 9) |
-| §5.1 | `sections/5.1_microstructure.md` | M092 | M088 (survol branche 5) | **intégré** (session 10) |
-| §5.2 | `sections/5.2_impact.md` | M094 | M088 | **intégré** (session 10) |
-| §5.3 | `sections/5.3_scheduling.md` | M096 | M088 | **intégré** (session 11) |
-| §5.4 | `sections/5.4_tactique.md` | M098 | M088 | **intégré** (session 11) |
-| §5.5 | `sections/5.5_tca.md` | M100 | M088 | **intégré** (session 11) |
-| §6.1 | `sections/6.1_donnees.md` | **M130** | M104 (première passe) | **intégré** (session 12) |
-| §6.2 | `sections/6.2_moteur.md` | **M130** | M104 | **intégré** (session 12) |
-| §6.3 | `sections/6.3_production.md` | **M130** | M104 | **intégré** (session 12) |
-| §6.4 | `sections/6.4_organisation.md` | **M130** | M104 | **intégré** (session 12) |
-| Encadré A | `encadres/A_shrinkage.md` | M035, M078, M080, M120, M122, M130 | M132 (définition v3) | **intégré** (session 13) |
-| Encadré B | `encadres/B_croissance_et_survie.md` | M035, M084, M130 | M132 | **intégré** (session 13) |
-| Encadré C | `encadres/C_selection_adverse.md` | M092, M098 | M132 | **intégré** (session 13) |
-| Encadré D | `encadres/D_chevauchement_newey_west.md` | M102, M116, M035, M114, M078, M112 | M132 | **intégré** (session 13) |
-| Encadré E | `encadres/E_surveillance_sequentielle.md` | M118, M130, M035, M122 | M132 (ajout en v3) | **intégré** (session 13) |
+| §1.1 | `sections/1.1_familles_alphas.md` | **M128** (remplace M126) | M126, M006 (survol), M010 (prisme equity/crypto) | **relu** (intégré s.2, harmonisé s.14) |
+| §1.2 | `sections/1.2_feature_engineering.md` | M018 (1.2.1), M025 (1.2.2), M027 (1.2.3), M029 (1.2.4) | M016 (vue d'ensemble) | **relu** (intégré s.2, harmonisé s.14) |
+| §1.3 | `sections/1.3_normalisation.md` | M043 | M062 (demi-vie), M064 (autocorrélation), M066 (turnover) → §1.3.4 | **relu** (intégré s.3, harmonisé s.14) |
+| §1.4 | `sections/1.4_cibles_labels.md` | M102 | — | **relu** (intégré s.3, harmonisé s.14) |
+| §2.1 | `sections/2.1_metriques.md` | M114 | M012 (survol branche 2) | **relu** (intégré s.4, harmonisé s.14) |
+| §2.2 | `sections/2.2_backtest.md` | M116 | M012 | **relu** (intégré s.4, harmonisé s.14) |
+| §2.3 | `sections/2.3_anti_overfitting.md` | M112 | M012 | **relu** (intégré s.5, harmonisé s.14) |
+| §2.4 | `sections/2.4_non_stationnarite.md` | M118 | M012 | **relu** (intégré s.5, harmonisé s.14) |
+| §3.1 | `sections/3.1_ponderations_simples.md` | M033 ; **M035 (forage niveau 5 : 3.1.3)** | M031 (survol branche 3) | **relu** (intégré s.6, harmonisé s.14) |
+| §3.2 | `sections/3.2_regression_regularisee.md` | M120 | M031 | **relu** (intégré s.6, harmonisé s.14) |
+| §3.3 | `sections/3.3_stacking_meta_modeles.md` | M122 | M031 | **relu** (intégré s.7, harmonisé s.14) |
+| §3.4 | `sections/3.4_orthogonalisation_pool.md` | M124 | M031 | **relu** (intégré s.7, harmonisé s.14) |
+| §3.4.5 | `sections/3.4.5_combinaison_sous_couts.md` | M124 (sous-section finale) | M082 (§4.3.3 Gârleanu-Pedersen) | **relu** (intégré s.7, harmonisé s.14) |
+| §4.1 | `sections/4.1_modeles_de_risque.md` | M078 | **M072** (survol formel, remplace M070), M076 (références br. 4) | **relu** (intégré s.8, harmonisé s.14) |
+| §4.2 | `sections/4.2_construction.md` | M080 | M072, M076 | **relu** (intégré s.8, harmonisé s.14) |
+| §4.3 | `sections/4.3_couts.md` | M082 | M072, M076 | **relu** (intégré s.9, harmonisé s.14) |
+| §4.4 | `sections/4.4_sizing_levier.md` | M084 | M072, M076 | **relu** (intégré s.9, harmonisé s.14) |
+| §4.5 | `sections/4.5_gestion_des_risques.md` | M086 | M072, M076 | **relu** (intégré s.9, harmonisé s.14) |
+| §5.1 | `sections/5.1_microstructure.md` | M092 | M088 (survol branche 5) | **relu** (intégré s.10, harmonisé s.14) |
+| §5.2 | `sections/5.2_impact.md` | M094 | M088 | **relu** (intégré s.10, harmonisé s.14) |
+| §5.3 | `sections/5.3_scheduling.md` | M096 | M088 | **relu** (intégré s.11, harmonisé s.14) |
+| §5.4 | `sections/5.4_tactique.md` | M098 | M088 | **relu** (intégré s.11, harmonisé s.14) |
+| §5.5 | `sections/5.5_tca.md` | M100 | M088 | **relu** (intégré s.11, harmonisé s.14) |
+| §6.1 | `sections/6.1_donnees.md` | **M130** | M104 (première passe) | **relu** (intégré s.12, harmonisé s.14) |
+| §6.2 | `sections/6.2_moteur.md` | **M130** | M104 | **relu** (intégré s.12, harmonisé s.14) |
+| §6.3 | `sections/6.3_production.md` | **M130** | M104 | **relu** (intégré s.12, harmonisé s.14) |
+| §6.4 | `sections/6.4_organisation.md` | **M130** | M104 | **relu** (intégré s.12, harmonisé s.14) |
+| Encadré A | `encadres/A_shrinkage.md` | M035, M078, M080, M120, M122, M130 | M132 (définition v3) | **relu** (intégré s.13, harmonisé s.14) |
+| Encadré B | `encadres/B_croissance_et_survie.md` | M035, M084, M130 | M132 | **relu** (intégré s.13, harmonisé s.14) |
+| Encadré C | `encadres/C_selection_adverse.md` | M092, M098 | M132 | **relu** (intégré s.13, harmonisé s.14) |
+| Encadré D | `encadres/D_chevauchement_newey_west.md` | M102, M116, M035, M114, M078, M112 | M132 | **relu** (intégré s.13, harmonisé s.14) |
+| Encadré E | `encadres/E_surveillance_sequentielle.md` | M118, M130, M035, M122 | M132 (ajout en v3) | **relu** (intégré s.13, harmonisé s.14) |
 
 ## Références bibliographiques (pour la passe de vérification)
 
@@ -223,3 +223,16 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
   vérification des renvois, conventions §0.6 ; (2) passe de VÉRIFICATION —
   ~25 marqueurs [à vérifier] + attributions contre sources primaires ;
   (3) compilation pandoc → LaTeX → PDF (TdM = squelette, index notations, BibTeX).
+
+### Session 14 — 2026-07-24 (passe d'harmonisation)
+- **Renvois** : vérification automatique des 1 214 occurrences `§N.N(.N)` contre la
+  table des 150 nœuds définis — **aucun renvoi orphelin** ; les 27 sections ont leur
+  bloc Renvois de clôture. TODO_renvois.md purgé.
+- **Notation** : greps ciblés (demi-vie h, horizon H, λ EMA) — aucune violation ;
+  les homonymies sont toutes glosées en place (λ_a, λ_c, λ_K, λ_r, λ(δ) nommée,
+  κ_AC, γ_p, τ_to, τ_m, τ_p, φ_CPCV, φ^Sh) ; propositions P1-P4 au squelette loggées.
+- **Conventions §0.6** : √252/√365 cohérents (5 occurrences en sections, toutes
+  conformes) ; knowledge time uniforme.
+- **Tous les états passés à « relu »** (32 fichiers + table AVANCEMENT).
+- Prochaine étape : passe de VÉRIFICATION (chiffres & attributions contre sources
+  primaires — commencer par la branche 4, la mieux balisée, cf. M076), puis compilation.
