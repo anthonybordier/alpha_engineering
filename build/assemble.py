@@ -54,7 +54,8 @@ PLAN = [
         E("A_shrinkage.md"), E("B_croissance_et_survie.md"), E("C_selection_adverse.md"),
         E("D_chevauchement_newey_west.md"), E("E_surveillance_sequentielle.md"),
     ]),
-    (r"\part{Annexes}", [os.path.join(ROOT, "NOTATION.md")]),
+    (r"\part{Annexes}", [os.path.join(ROOT, "NOTATION.md"),
+                         os.path.join(ROOT, "build", "bibliographie.md")]),
 ]
 
 RE_SUP_BRACE = re.compile(r"\^\{([^}\n]{1,80})\}")

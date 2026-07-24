@@ -5,6 +5,7 @@ data-*.zip
 
 # Artefacts de compilation (build/assemble.py, livre_main.tex et postprocess_tex.py sont versionnés)
 build/livre.md
+build/bibliographie.md
 build/corps.tex
 build/livre.tex
 build/*.aux
