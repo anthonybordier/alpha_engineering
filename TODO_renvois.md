@@ -85,3 +85,21 @@ Format : `§source → §cible — contexte — statut`. Retirer la ligne quand 
 - §2.2 → §6.1, §6.2 — correspondances datées, placebo quotidien — cible non écrite
 
 *(Renvois de §2.1/§2.2 vers la branche 1 et entre eux : résolus.)*
+
+## Depuis §2.3 (intégrée session 5)
+
+- §2.3 → §3.1.2 — valider prend des mois — cible non écrite
+- §2.3 → §6.2 — registre (N du DSR, matrice PBO), holdout scellé par hash — cible non écrite
+- §2.3 → §6.3 — portes pré-enregistrées, bandes du live — cible non écrite
+- §2.3 → encadré D — chevauchement (purge = version protocole) — cible non écrite
+
+## Depuis §2.4 (intégrée session 5)
+
+- §2.4 → §3.1.2–§3.1.3 — prior hiérarchique (m publié vs propriétaire), buckets-hystérésis — cible non écrite
+- §2.4 → §3.2.4 — demi-vies d'estimation par famille de persistance — cible non écrite
+- §2.4 → §3.4.1 — net de revalorisation comme filtre d'admission — cible non écrite
+- §2.4 → §4.5, §4.5.2 — stress, Khandani-Lo — cible non écrite
+- §2.4 → §6.3 — comomentum au tableau de bord, bandes du paper trading — cible non écrite
+- §2.4 → encadré E — surveillance séquentielle (CUSUM ↔ hystérésis) — cible non écrite
+
+*(Renvois de §2.3/§2.4 vers branches 1-2 : résolus.)*

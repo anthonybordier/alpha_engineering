@@ -34,8 +34,8 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §1.4 | `sections/1.4_cibles_labels.md` | M102 | — | **intégré** (session 3) |
 | §2.1 | `sections/2.1_metriques.md` | M114 | M012 (survol branche 2) | **intégré** (session 4) |
 | §2.2 | `sections/2.2_backtest.md` | M116 | M012 | **intégré** (session 4) |
-| §2.3 | `sections/2.3_anti_overfitting.md` | M112 | M012 | indexé |
-| §2.4 | `sections/2.4_non_stationnarite.md` | M118 | M012 | indexé |
+| §2.3 | `sections/2.3_anti_overfitting.md` | M112 | M012 | **intégré** (session 5) |
+| §2.4 | `sections/2.4_non_stationnarite.md` | M118 | M012 | **intégré** (session 5) |
 | §3.1 | `sections/3.1_ponderations_simples.md` | M033 ; **M035 (forage niveau 5 : 3.1.3)** | M031 (survol branche 3) | indexé |
 | §3.2 | `sections/3.2_regression_regularisee.md` | M120 | M031 | indexé |
 | §3.3 | `sections/3.3_stacking_meta_modeles.md` | M122 | M031 | indexé |
@@ -115,3 +115,16 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - Chiffres marqués `[à vérifier]` : majorité des ~450 anomalies HXZ, −55% Nasdaq
   (Shumway & Warther), ~70% wash trading (Cong et al.).
 - Prochaine session : fin de branche 2 — §2.3 (M112) et §2.4 (M118).
+
+### Session 5 — 2026-07-24 (fin de branche 2 : §2.3, §2.4)
+- §2.3 **intégré** depuis M112 (purge/embargo/CPCV, σ(ŜR) de Lo, PSR/DSR, PBO/CSCV,
+  BH/FDR, t ≈ 3,0 Harvey-Liu-Zhu, Dwork/Thresholdout). Le φ des chemins CPCV est noté
+  **φ_CPCV** avec glose, conformément à la règle 3 de NOTATION.md.
+- §2.4 **intégré** depuis M118 (rolling IC & bandes, Bai-Perron, CUSUM/ARL,
+  McLean-Pontiff −26%/−58%, comomentum, carry vs revalorisation, taxonomie de
+  persistance, N = 4 du halving, priors transférés Liu-Tsyvinski).
+- **La branche 2 est complète** (2.1 → 2.4). Branches 0-2 : relue/intégrées.
+- Chiffres marqués `[à vérifier]` : écart CV naïve/purgée en dixièmes de Sharpe,
+  Sharpe ~0,9-1,2 pour 100 essais, haircut 1,0 → 0,4, −26%/−58% McLean-Pontiff.
+- Prochaine session : branche 3 — §3.1 (M033 + forage M035) et §3.2 (M120),
+  puis §3.3 (M122) et §3.4 + §3.4.5 (M124).
