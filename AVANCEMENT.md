@@ -41,8 +41,8 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §3.3 | `sections/3.3_stacking_meta_modeles.md` | M122 | M031 | **intégré** (session 7) |
 | §3.4 | `sections/3.4_orthogonalisation_pool.md` | M124 | M031 | **intégré** (session 7) |
 | §3.4.5 | `sections/3.4.5_combinaison_sous_couts.md` | M124 (sous-section finale) | M082 (§4.3.3 Gârleanu-Pedersen) | **intégré** (session 7) |
-| §4.1 | `sections/4.1_modeles_de_risque.md` | M078 | **M072** (survol formel, remplace M070), M076 (références br. 4) | indexé |
-| §4.2 | `sections/4.2_construction.md` | M080 | M072, M076 | indexé |
+| §4.1 | `sections/4.1_modeles_de_risque.md` | M078 | **M072** (survol formel, remplace M070), M076 (références br. 4) | **intégré** (session 8) |
+| §4.2 | `sections/4.2_construction.md` | M080 | M072, M076 | **intégré** (session 8) |
 | §4.3 | `sections/4.3_couts.md` | M082 | M072, M076 | indexé |
 | §4.4 | `sections/4.4_sizing_levier.md` | M084 | M072, M076 | indexé |
 | §4.5 | `sections/4.5_gestion_des_risques.md` | M086 | M072, M076 | indexé |
@@ -150,3 +150,14 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - **La MOITIÉ RECHERCHE est close** : branches 0-3 intégrées/relues (13 nœuds).
 - Prochaine session : branche 4 (demi-branche) — §4.1 (M078) et §4.2 (M080),
   avec M072 (survol formel) et M076 (références) en cadrage.
+
+### Session 8 — 2026-07-24 (demi-branche 4 : §4.1, §4.2)
+- §4.1 **intégré** depuis M078 (Barra/USE4, bias statistic, Marchenko-Pastur &
+  clipping/RIE, Ledoit-Wolf, NW sur F, Vasicek & clustering crypto).
+- §4.2 **intégré** depuis M080 (Woodbury, Kan-Zhou N/T, KKT & duals,
+  Jagannathan-Ma, TC 0,3-0,4 long-only, robust opt, optimiseur du pauvre).
+- M076 (bibliographie de la branche 4) exploité pour les références ; M078 note que
+  la branche 4 est la plus facile à vérifier — roder le pipeline biblio par elle.
+- Chiffres `[à vérifier]` : ~90-95% des valeurs propres dans le bulk MP, 50-70% de
+  variance expliquée par BTC, 80-90% du TC pour l'optimiseur du pauvre.
+- Prochaine session : fin de branche 4 — §4.3 (M082), §4.4 (M084), §4.5 (M086).

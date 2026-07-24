@@ -139,3 +139,18 @@ Format : `§source → §cible — contexte — statut`. Retirer la ligne quand 
 
 *(Renvois de §3.3/§3.4/§3.4.5 vers branches 1-3 : résolus. La moitié recherche est close ;
 tous les renvois restants pointent vers les branches 4-6 et les encadrés.)*
+
+## Depuis §4.1 (intégrée session 8)
+
+- §4.1 → §4.5.1 — bascule VaR → ES en crypto — cible non écrite
+- §4.1 → §6.3 — bias statistic au tableau de bord — cible non écrite
+- §4.1 → encadrés A et D — cible non écrite
+
+## Depuis §4.2 (intégrée session 8)
+
+- §4.2 → §4.4.4 — dérive du TC et capacité — cible non écrite
+- §4.2 → §4.5.3 — gouvernance des duals — cible non écrite
+- §4.2 → §5.5.2 — cascade des paper portfolios — cible non écrite
+- §4.2 → encadré A — contraintes et robust opt — cible non écrite
+
+*(Renvois de §4.1/§4.2 vers branches 1-3 et entre eux : résolus.)*
