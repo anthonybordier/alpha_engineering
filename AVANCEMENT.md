@@ -38,9 +38,9 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §2.4 | `sections/2.4_non_stationnarite.md` | M118 | M012 | **intégré** (session 5) |
 | §3.1 | `sections/3.1_ponderations_simples.md` | M033 ; **M035 (forage niveau 5 : 3.1.3)** | M031 (survol branche 3) | **intégré** (session 6) |
 | §3.2 | `sections/3.2_regression_regularisee.md` | M120 | M031 | **intégré** (session 6) |
-| §3.3 | `sections/3.3_stacking_meta_modeles.md` | M122 | M031 | indexé |
-| §3.4 | `sections/3.4_orthogonalisation_pool.md` | M124 | M031 | indexé |
-| §3.4.5 | `sections/3.4.5_combinaison_sous_couts.md` | M124 (sous-section finale) | M082 (§4.3.3 Gârleanu-Pedersen) | indexé |
+| §3.3 | `sections/3.3_stacking_meta_modeles.md` | M122 | M031 | **intégré** (session 7) |
+| §3.4 | `sections/3.4_orthogonalisation_pool.md` | M124 | M031 | **intégré** (session 7) |
+| §3.4.5 | `sections/3.4.5_combinaison_sous_couts.md` | M124 (sous-section finale) | M082 (§4.3.3 Gârleanu-Pedersen) | **intégré** (session 7) |
 | §4.1 | `sections/4.1_modeles_de_risque.md` | M078 | **M072** (survol formel, remplace M070), M076 (références br. 4) | indexé |
 | §4.2 | `sections/4.2_construction.md` | M080 | M072, M076 | indexé |
 | §4.3 | `sections/4.3_couts.md` | M082 | M072, M076 | indexé |
@@ -137,3 +137,16 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
   NNLS/KKT, disjonction sélection/combinaison, CV imbriquée). Glose ajoutée sur les
   λ_j (valeurs propres, usage local ≠ λ EMA).
 - Prochaine session : fin de branche 3 — §3.3 (M122) et §3.4 + §3.4.5 (M124).
+
+### Session 7 — 2026-07-24 (fin de branche 3 : §3.3, §3.4, §3.4.5)
+- §3.3 **intégré** depuis M122 (out-of-fold démontré, Breiman/NNLS, super learner,
+  dictionnaire augmenté, Hedge/regret, fixed share, hiérarchie (i)-(iv)).
+- §3.4 **intégré** depuis M124 (ρ_⊥, additivité ICIR², Gram-Schmidt/PCA/HRP,
+  Shapley noté **φ^Sh** avec glose, usine vs pods).
+- §3.4.5 **intégré** depuis M124 (l'interface (s, ρ, σ(IC), φ, τ) ; τ_k = turnover
+  glosé contre le τ du prior).
+- **Collisions de notation** : P2 (φ Shapley) et P3 (τ turnover) loggées dans
+  PROPOSITIONS_squelette.md ; sections conformes via gloses.
+- **La MOITIÉ RECHERCHE est close** : branches 0-3 intégrées/relues (13 nœuds).
+- Prochaine session : branche 4 (demi-branche) — §4.1 (M078) et §4.2 (M080),
+  avec M072 (survol formel) et M076 (références) en cadrage.

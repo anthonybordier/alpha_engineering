@@ -121,3 +121,21 @@ Format : `§source → §cible — contexte — statut`. Retirer la ligne quand 
 - §3.2 → encadré A — ridge spectrale, NNLS — cible non écrite
 
 *(Renvois de §3.1/§3.2 vers branches 1-2 et entre eux : résolus.)*
+
+## Depuis §3.3 (intégrée session 7)
+
+- §3.3 → §6.2 — registre (N de la couche méta) — cible non écrite
+- §3.3 → encadrés A (NNLS-Breiman) et E (fixed share) — cible non écrite
+
+## Depuis §3.4 + §3.4.5 (intégrées session 7)
+
+- §3.4 → §4.1.2, §4.1.4 — instabilité PCA, distance de corrélation — cible non écrite
+- §3.4 → §4.3.4, §4.4.3, §4.5.3 — netting, drawdown control, limites firm-wide — cible non écrite
+- §3.4 → §5.5.2 — Shapley des coûts — cible non écrite
+- §3.4 → §6.2, §6.3, §6.4 — registre, live, contrats/différé — cible non écrite
+- §3.4.5 → §4.3.3 — Gârleanu-Pedersen (contenu formel) — cible non écrite
+- §3.4.5 → §5.3.3 — le ticket transporte φ — cible non écrite
+- §3.4.5 → §6.4 — doc par signal — cible non écrite
+
+*(Renvois de §3.3/§3.4/§3.4.5 vers branches 1-3 : résolus. La moitié recherche est close ;
+tous les renvois restants pointent vers les branches 4-6 et les encadrés.)*
