@@ -1,11 +1,17 @@
 # Encadré C — La sélection adverse, quatre technologies
 
-> **État : indexé** (session 1) — appendice transversal ; les sections y renvoient au lieu de répéter.
+> **État : intégré** (session 13) — synthèse transversale ; sources dans les sections citées.
 
-**Fil (squelette v3)** : Glosten-Milgrom (5.1.1) → markouts (5.4.3) → Avellaneda-Stoikov (5.4.4) → LVR (5.1.4)
+**Le spread est un prix d'assurance contre l'information.** Quiconque affiche un prix ferme — teneur de marché, ordre limite au repos, pool de liquidité — vend une option gratuite à quiconque en sait plus que lui : la contrepartie ne l'exerce que quand le prix affiché est faux. Le spread est la prime que le vendeur d'immédiateté facture à tous pour couvrir ce qu'il perd contre les informés. Cet encadré suit le théorème à travers quatre technologies de marché — il se théorise, se mesure, se tarife, et se réécrit pour les courbes.
 
-**Sources corpus** : M092, M098
+**Théorisé : Glosten-Milgrom** (§5.1.1). Le teneur de marché efficient cote ask = E[v | le prochain trade est un achat], bid = E[v | vente] : le spread *est* la révision bayésienne conditionnelle au sens du trade — la prime de sélection adverse en forme pure. Il croît avec la probabilité d'information dans le flux, et le marché ferme quand elle est trop haute. La décomposition empirique de Huang-Stoll (traitement / sélection adverse / inventaire) en donne la comptabilité ; le λ de Kyle (§5.2.1) en est la version en pente d'impact — l'information par unité de flux.
 
----
+**Mesuré : les markouts** (§5.4.3). M(τ~m~) = ε·(mid~t+τ_m~ − p) — le P&L marked-to-mid d'une exécution après τ~m~. La décomposition opérationnelle en découle : spread effectif = spread réalisé (ce que le passif gagne vraiment) + sélection adverse (ce que le mouvement post-trade lui reprend). C'est l'instrument universel : il note la toxicité des venues (§5.1.3), la qualité des positions de file (§5.4.1 — tête de file remplie sur flux normal, fond de file sur balayages), et l'écart entre deux tactiques. Un profil M(τ~m~) négatif et croissant en |τ~m~| signe un flux contre lequel on ne devrait pas coter.
 
-*(À rédiger après les branches concernées ; définition contractuelle dans `arbre_alpha_squelette_v3.md`.)*
+**Tarifé : Avellaneda-Stoikov** (§5.4.4). Le maker rationnel ne subit pas l'AS, il la met en équation : prix de réservation r~t~ = s~t~ − qγσ²(T−t) décalé contre son inventaire, spread optimal γσ²(T−t) + (2/γ)·ln(1+γ/k) — la prime de risque d'inventaire plus l'arbitrage fréquence/marge. La descendance GLFT en donne la forme codable (cotes stationnaires par niveau d'inventaire), et l'ajout des signaux (coter *avec* l'OFI dans la dérive) referme la boucle : la meilleure défense contre l'information est d'en avoir. La limite est un théorème d'équilibre (§5.4.3) : l'AS ne s'élimine pas, elle se tarife — un passif parfaitement défendu ne remplit plus rien ; l'optimum est un niveau d'AS assumé et payé en connaissance.
+
+**Réécrit pour les courbes : le LVR** (§5.1.4). Le LP d'un AMM à produit constant cote une courbe de prix *figée* entre deux mises à jour du monde : les arbitragistes qui le réalignent sur le prix externe ne tradent contre lui que quand sa courbe est fausse — un flux informé par construction. Le loss-versus-rebalancing ≈ σ²/8 par unité de temps est la sélection adverse de Glosten-Milgrom réécrite pour la liquidité algorithmique : même théorème, sans teneur de marché humain, sans carnet, sans même un spread apparent — la preuve que l'objet est structurel et non institutionnel.
+
+La leçon commune : partout où un prix ferme rencontre un flux, l'information se fait payer — et les quatre technologies ne diffèrent que par *qui* mesure et *comment* on se défend. Pour le desk systématique, la conséquence est double : côté coûts, toute exécution passive doit être évaluée nette d'AS (le spread « gagné » est brut, §5.4.1) ; côté signaux, la rémunération de la fourniture de liquidité est elle-même un alpha (le reversal de §1.1.1, la loi de Nagel — proportionnelle au prix du risque de la porter) — les deux faces du même flux, selon le côté du carnet où l'on se trouve.
+
+**Renvois** : §1.1.1 (Nagel — la version alpha) ; §5.1.1 (Glosten-Milgrom, Huang-Stoll), §5.1.3–§5.1.4 (toxicité, LVR) ; §5.2.1 (Kyle) ; §5.4.1, §5.4.3–§5.4.4 (file, markouts, Avellaneda-Stoikov).

@@ -55,11 +55,11 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §6.2 | `sections/6.2_moteur.md` | **M130** | M104 | **intégré** (session 12) |
 | §6.3 | `sections/6.3_production.md` | **M130** | M104 | **intégré** (session 12) |
 | §6.4 | `sections/6.4_organisation.md` | **M130** | M104 | **intégré** (session 12) |
-| Encadré A | `encadres/A_shrinkage.md` | M035, M078, M080, M120, M122, M130 | M132 (définition v3) | indexé |
-| Encadré B | `encadres/B_croissance_et_survie.md` | M035, M084, M130 | M132 | indexé |
-| Encadré C | `encadres/C_selection_adverse.md` | M092, M098 | M132 | indexé |
-| Encadré D | `encadres/D_chevauchement_newey_west.md` | M102, M116, M035, M114, M078, M112 | M132 | indexé |
-| Encadré E | `encadres/E_surveillance_sequentielle.md` | M118, M130, M035, M122 | M132 (ajout en v3) | indexé |
+| Encadré A | `encadres/A_shrinkage.md` | M035, M078, M080, M120, M122, M130 | M132 (définition v3) | **intégré** (session 13) |
+| Encadré B | `encadres/B_croissance_et_survie.md` | M035, M084, M130 | M132 | **intégré** (session 13) |
+| Encadré C | `encadres/C_selection_adverse.md` | M092, M098 | M132 | **intégré** (session 13) |
+| Encadré D | `encadres/D_chevauchement_newey_west.md` | M102, M116, M035, M114, M078, M112 | M132 | **intégré** (session 13) |
+| Encadré E | `encadres/E_surveillance_sequentielle.md` | M118, M130, M035, M122 | M132 (ajout en v3) | **intégré** (session 13) |
 
 ## Références bibliographiques (pour la passe de vérification)
 
@@ -210,3 +210,16 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - Prochaine session : encadrés A-E (matière déjà rédigée dans les sections —
   travail de synthèse), puis passe d'harmonisation (grep terminologie/symboles,
   résolution TODO_renvois), puis passe de vérification, puis compilation pandoc.
+
+### Session 13 — 2026-07-24 (encadrés A-E)
+- Les cinq encadrés **intégrés** (synthèses transversales, ~700-900 mots chacun) :
+  A (huit habits du shrinkage), B (trois échelles de croissance & survie),
+  C (quatre technologies de la sélection adverse), D (un péché, cinq pénitences),
+  E (détecter coûte du délai — la gradualité comme design).
+- **L'OUVRAGE ENTIER EST À L'ÉTAT « INTÉGRÉ »** : §0 (relu) + 27 nœuds + 5 encadrés.
+- TOUS les renvois de TODO_renvois.md pointent désormais vers des cibles existantes
+  (vérification renvoi par renvoi = passe d'harmonisation).
+- Prochaines étapes : (1) passe d'HARMONISATION — grep symboles h/H/λ/κ/φ/τ,
+  vérification des renvois, conventions §0.6 ; (2) passe de VÉRIFICATION —
+  ~25 marqueurs [à vérifier] + attributions contre sources primaires ;
+  (3) compilation pandoc → LaTeX → PDF (TdM = squelette, index notations, BibTeX).

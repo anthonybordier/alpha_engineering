@@ -1,11 +1,17 @@
 # Encadré B — Croissance & survie
 
-> **État : indexé** (session 1) — appendice transversal ; les sections y renvoient au lieu de répéter.
+> **État : intégré** (session 13) — synthèse transversale ; sources dans les sections citées.
 
-**Fil (squelette v3)** : parabole de Kelly, (1−x)^(2/c−1), Grossman-Zhou (4.4) ; posterior shrinké (3.1.3b) ; contrat différé (6.4)
+Trois échelles — la position, le book, l'organisation — et une seule réponse : **réduire l'exposition à l'estimé proportionnellement à son incertitude**. Cet encadré rassemble les résultats de croissance et de ruine que l'ouvrage mobilise, et montre qu'ils forment un seul argument.
 
-**Sources corpus** : M035, M084, M130
+**Le socle : la parabole de Kelly** (§4.4.2). Pour un flux de Sharpe SR, le taux de croissance sous fraction c~K~ du levier log-optimal f\* = Σ⁻¹μ vaut g(c~K~) = r + (c~K~ − c~K~²/2)·SR². La parabole dit trois choses. À c~K~ = ½, on capture 75% de la croissance excédentaire avec la moitié du risque — l'optimum est *plat* à gauche. Au-delà de c~K~ = 1, l'asymétrie est brutale : à c~K~ = 2 la croissance excédentaire est nulle avec un risque doublé. Et la distribution des drawdowns rend le choix tangible : **P(DD ≥ x) = (1−x)^(2/c_K−1)^** — perdre la moitié du capital a probabilité ½ au plein Kelly, 12,5% au demi, ~3% au tiers. « Demi-Kelly » n'est pas une timidité : c'est la lecture conjointe de la platitude à gauche et de la falaise à droite.
 
----
+**Pourquoi encore moins que le demi : l'incertitude paramétrique** (§3.1.3, §4.4.2). Kelly est log-optimal sous paramètres *connus* ; sous μ estimé, la croissance espérée du plug-in est amputée d'un terme en Var(μ̂), et la correction cohérente — Kelly sur le posterior shrinké — équivaut à une fraction supplémentaire. Le shrinkage des IC (encadré A) et le fractional Kelly sont le même geste vu de deux endroits : l'un réduit l'estimée, l'autre réduit l'exposition à l'estimée. S'ajoutent les raisons hors modèle — queues épaisses, ruptures de régime (§2.4), la variance de la variance — qui poussent toutes dans la même direction : sous l'incertitude, on se place systématiquement *en dessous* de l'optimum calculé, parce que l'erreur par excès coûte plus que l'erreur par défaut.
 
-*(À rédiger après les branches concernées ; définition contractuelle dans `arbre_alpha_squelette_v3.md`.)*
+**Le plancher explicite : Grossman-Zhou** (§4.4.3). Maximiser la croissance sous la contrainte W~t~ ≥ α~f~·M~t~ donne un CPPI sur le coussin : exposition ∝ (W~t~ − α~f~·M~t~)/W~t~ — l'exposition tend vers zéro à l'approche du plancher. C'est la réponse au scénario que le vol targeting (§4.4.1) rate : la glissade régulière à vol basse. Le verdict de Kaminski-Lo sur les stop-loss complète : sous i.i.d. ils détruisent de l'espérance, sous momentum ils en ajoutent — mais leur justification résiduelle est *structurelle* : un book qui perd son capital a une espérance nulle quelle que soit celle de ses signaux. La survie n'est pas un raffinement de l'optimisation : elle en est la condition de possibilité — le taux de croissance ne se compose que pour ceux qui restent à la table.
+
+**La troisième échelle : le contrat différé** (§6.4). Le desk lui-même est une position sur des estimées — les Sharpe backtestés de ses chercheurs — et le contrat robuste applique la même logique : assiette marginale (Shapley, §3.4.3), **déflatée du N** du registre, **différée sur le live**. La part payée immédiatement sur l'estimé est réduite proportionnellement à son incertitude ; le solde n'est versé que quand le live a transformé l'estimé en réalisé. C'est le fractional Kelly incitatif — et il ferme la boucle : l'organisation qui sur-paie ses backtests fait faillite par le même mécanisme que le book qui sur-lève ses estimées, la sur-exposition à des paramètres bruités.
+
+La leçon commune : position (posterior shrinké, fraction de Kelly), book (vol target plafonné, plancher de drawdown), organisation (différé) — trois étages du même théorème. Et son corollaire pratique, qui traverse l'ouvrage : face à un chiffre estimé, la question n'est jamais seulement « combien » mais « avec quelle incertitude » — et la taille de la position, du book ou du bonus doit décroître avec la seconde, pas seulement croître avec le premier.
+
+**Renvois** : §2.4 (ruptures) ; §3.1.3 (posterior, sleeves vol-égalisés) ; §3.4.3 (Shapley) ; §4.4.1–§4.4.3 (vol targeting, Kelly, Grossman-Zhou, Kaminski-Lo) ; §6.4 (le contrat) ; encadré A (le shrinkage).
