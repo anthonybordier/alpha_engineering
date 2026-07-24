@@ -36,8 +36,8 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 | §2.2 | `sections/2.2_backtest.md` | M116 | M012 | **intégré** (session 4) |
 | §2.3 | `sections/2.3_anti_overfitting.md` | M112 | M012 | **intégré** (session 5) |
 | §2.4 | `sections/2.4_non_stationnarite.md` | M118 | M012 | **intégré** (session 5) |
-| §3.1 | `sections/3.1_ponderations_simples.md` | M033 ; **M035 (forage niveau 5 : 3.1.3)** | M031 (survol branche 3) | indexé |
-| §3.2 | `sections/3.2_regression_regularisee.md` | M120 | M031 | indexé |
+| §3.1 | `sections/3.1_ponderations_simples.md` | M033 ; **M035 (forage niveau 5 : 3.1.3)** | M031 (survol branche 3) | **intégré** (session 6) |
+| §3.2 | `sections/3.2_regression_regularisee.md` | M120 | M031 | **intégré** (session 6) |
 | §3.3 | `sections/3.3_stacking_meta_modeles.md` | M122 | M031 | indexé |
 | §3.4 | `sections/3.4_orthogonalisation_pool.md` | M124 | M031 | indexé |
 | §3.4.5 | `sections/3.4.5_combinaison_sous_couts.md` | M124 (sous-section finale) | M082 (§4.3.3 Gârleanu-Pedersen) | indexé |
@@ -128,3 +128,12 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
   Sharpe ~0,9-1,2 pour 100 essais, haircut 1,0 → 0,4, −26%/−58% McLean-Pontiff.
 - Prochaine session : branche 3 — §3.1 (M033 + forage M035) et §3.2 (M120),
   puis §3.3 (M122) et §3.4 + §3.4.5 (M124).
+
+### Session 6 — 2026-07-24 (demi-branche 3 : §3.1, §3.2)
+- §3.1 **intégré** depuis M033 + M035, cadrage M031 en ouverture (w ∝ C⁻¹ρ).
+  Le forage niveau 5 (§3.1.3 a-d : posterior B = s²/(τ²+s²), Kelly/sleeves,
+  buckets-hystérésis, σ(IC)) est restitué en sous-sections a)-d).
+- §3.2 **intégré** depuis M120 (filtre spectral λ_j/(λ_j+κ̃), df(κ), cible en blocs,
+  NNLS/KKT, disjonction sélection/combinaison, CV imbriquée). Glose ajoutée sur les
+  λ_j (valeurs propres, usage local ≠ λ EMA).
+- Prochaine session : fin de branche 3 — §3.3 (M122) et §3.4 + §3.4.5 (M124).

@@ -103,3 +103,21 @@ Format : `§source → §cible — contexte — statut`. Retirer la ligne quand 
 - §2.4 → encadré E — surveillance séquentielle (CUSUM ↔ hystérésis) — cible non écrite
 
 *(Renvois de §2.3/§2.4 vers branches 1-2 : résolus.)*
+
+## Depuis §3.1 (intégrée session 6)
+
+- §3.1 → §3.3 — stacking (poids conditionnels), §3.4 — orthogonalité, admission — cible non écrite
+- §3.1 → §4.4.1, §4.4.2 — vol-targeting par sleeve, fractional Kelly — cible non écrite
+- §3.1 → §6.4 — comité, gouvernance des buckets — cible non écrite
+- §3.1 → encadrés A, B, D, E — cible non écrite
+
+## Depuis §3.2 (intégrée session 6)
+
+- §3.2 → §3.3 — la règle out-of-fold érigée en absolu — cible non écrite
+- §3.2 → §3.4.2 — familles/topologie du pool — cible non écrite
+- §3.2 → §4.1.2, §4.1.3 — clipping RMT, Ledoit-Wolf — cible non écrite
+- §3.2 → §4.2.2 — Jagannathan-Ma — cible non écrite
+- §3.2 → §6.2, §6.3 — registre (df(κ)), turnover de w au tableau de bord — cible non écrite
+- §3.2 → encadré A — ridge spectrale, NNLS — cible non écrite
+
+*(Renvois de §3.1/§3.2 vers branches 1-2 et entre eux : résolus.)*
