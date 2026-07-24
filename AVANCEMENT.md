@@ -27,9 +27,9 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 
 | Nœud | Fichier | Sources principales | Sources secondaires | État |
 |---|---|---|---|---|
-| §0 (0.1–0.8) | `section_0_cadre_et_conventions.md` | M054 (rédaction complète) | M002 (définition, →0.2), M004 (plan de l'arbre, →0.8), M052 (cross-section/panel, →0.1), M056+M058 (IC vs E[·], →0.3), M060 (ICIR, Spearman/Pearson, →0.3), M066 (turnover, →0.8) | **intégré** (déjà rédigé) |
-| §1.1 | `sections/1.1_familles_alphas.md` | **M128** (remplace M126) | M126, M006 (survol), M010 (prisme equity/crypto) | indexé |
-| §1.2 | `sections/1.2_feature_engineering.md` | M018 (1.2.1), M025 (1.2.2), M027 (1.2.3), M029 (1.2.4) | M016 (vue d'ensemble) | indexé |
+| §0 (0.1–0.8) | `section_0_cadre_et_conventions.md` | M054 (rédaction complète) | M002 (définition, →0.2), M004 (plan de l'arbre, →0.8), M052 (cross-section/panel, →0.1), M056+M058 (IC vs E[·], →0.3), M060 (ICIR, Spearman/Pearson, →0.3), M066 (turnover, →0.8) | **relu** (session 2 : + φ en §0.5, renvois loggés) |
+| §1.1 | `sections/1.1_familles_alphas.md` | **M128** (remplace M126) | M126, M006 (survol), M010 (prisme equity/crypto) | **intégré** (session 2) |
+| §1.2 | `sections/1.2_feature_engineering.md` | M018 (1.2.1), M025 (1.2.2), M027 (1.2.3), M029 (1.2.4) | M016 (vue d'ensemble) | **intégré** (session 2) |
 | §1.3 | `sections/1.3_normalisation.md` | M043 | M062 (demi-vie), M064 (autocorrélation), M066 (turnover) → §1.3.4 | indexé |
 | §1.4 | `sections/1.4_cibles_labels.md` | M102 | — | indexé |
 | §2.1 | `sections/2.1_metriques.md` | M114 | M012 (survol branche 2) | indexé |
@@ -78,3 +78,19 @@ Corpus : `transcripts/source.md` — messages numérotés `[M001]`–`[M138]`
 - Tous les nœuds passés à l'état **indexé** ; §0 déjà **intégré** (préambule rédigé).
 - Prochaine session (workflow) : branche 0 (relecture/harmonisation du préambule) puis
   branche 1 — commencer par §1.1 depuis M128.
+
+### Session 2 — 2026-07-24 (branche 0 + demi-branche 1 : §1.1, §1.2)
+- §0 **relu** : ajout de la ligne φ à la table §0.5 (harmonisation avec NOTATION.md et
+  l'en-tête du squelette v3) ; renvois vers sections non écrites loggés dans TODO_renvois.md.
+- §1.1 **intégré** depuis M128 (M126 écartée conformément à la note « deux versions ») ;
+  mini-titres interprétatifs repris de M126 ; chiffres fins marqués `[à vérifier]`
+  (spread accruals ~10%/an, PEAD CAR(+2,+60) ≈ +2%).
+- §1.2 **intégré** depuis M018/M025/M027/M029, cadrage depuis M016 ; chiffres marqués
+  `[à vérifier]` (efficacité ×5 de Parkinson, Sharpe ~1,2 pour 1 000 essais, Novy-Marx 12-7).
+- **Collisions de notation traitées** (NOTATION.md fait foi) :
+  (a) M025 paramétrait l'EMA « en demi-vie h » → corrigé en **H** dans §1.2.2 ;
+  (b) le λ de Daniel-Moskowitz (w\* = μ̂/2λσ̂²) est une aversion au risque, pas la
+  décroissance EMA → noté **λ_a** avec glose dans §1.1.1, proposition loggée dans
+  `PROPOSITIONS_squelette.md` (le squelette, gelé, garde λ).
+- Prochaine session : fin de branche 1 — §1.3 (depuis M043 + M062/M064/M066) et
+  §1.4 (depuis M102).

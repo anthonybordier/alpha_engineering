@@ -108,6 +108,7 @@ Symboles utilisés uniformément dans tout l'ouvrage.
 | κ | **pénalité de régularisation** (ridge, §3.2) |
 | τ | dispersion vraie des IC dans le prior hiérarchique (§3.1.3) |
 | *B* | facteur de shrinkage bayésien, *B* = s²/(τ² + s²) |
+| φ | **vitesse de decay de l'alpha**, φ = ln2 / H<sub>α</sub> (mesurée en §2.1.2) |
 | IC, ICIR, IR, TC | cf. §0.3 et §0.4 |
 
 Deux collisions de notation sont fréquentes dans la littérature et **évitées ici** : *h* désigne l'horizon et jamais une demi-vie (notée *H*) ; λ désigne la décroissance exponentielle et jamais la pénalité ridge (notée κ).
